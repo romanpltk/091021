@@ -1,0 +1,59 @@
+// Example program
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main () {
+    /*int a, b;
+    cin >> a;
+    cin >> b;
+    bool c ;
+    c= a > 2 && b <= 3;
+    cout << boolalpha << c  << endl;*/
+    /*int a, b, c;
+    cin >> a;
+    cin >> b;
+    cin >> c;
+    bool x ;
+    x= (a<b && b<c) || (c<b && b<a);
+    cout << boolalpha << x << endl;*/
+    /*int a, b;
+    cin >> a;
+    cin >> b;
+    bool c ;
+    c= (a%2 !=0) && (b%2 !=0);
+    cout << boolalpha << c  << endl;*/
+    /*int a, b;
+    cin >> a;
+    cin >> b;
+    bool c ;
+    c= ((a%2 ==0) && (b%2 !=0)) || ((a%2 !=0) && (b%2 ==0));
+    cout << boolalpha << c  << endl;*/
+    /*int a, b;
+    cin >> a;
+    cin >> b;
+    bool c ;
+    c= ((a%2 ==0) && (b%2 ==0)) || ((a%2 !=0) && (b%2 !=0));
+    cout << boolalpha << c  << endl;
+    int a, b;
+    cin >> a;
+    cin >> b;
+    bool c ;
+    c= ((a%2 ==0) && (b%2 ==0)) || ((a%2 !=0) && (b%2 !=0));
+    cout << boolalpha << c  << endl;*/
+    /*int a, b, c;
+    cin >> a;
+    cin >> b;
+    cin >> c;
+    bool x ;
+    x= (a>0) && (b>0) && (c>0) ;
+    cout << boolalpha << x << endl;*/
+    *int a, b, c;
+    cin >> a;
+    cin >> b;
+    cin >> c;
+    bool x ;
+    x=( a*b*c ) > 0;
+    cout << boolalpha << x << endl;
+    
+    return 0;
+}
